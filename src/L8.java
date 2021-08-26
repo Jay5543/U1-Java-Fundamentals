@@ -1,9 +1,12 @@
-import java.util.Scanner;
 
+import java.util.Scanner;
 public class L8 {
 
-    public static void main(String[] args) {
-        String name;
+  public static void main(String[] args) {
+      Scanner read = new Scanner(System.in);
+
+
+      /*   String name;
         int hours;
         double payRate;
         double grossPay;
@@ -27,6 +30,31 @@ public class L8 {
         grossPay = hours * payRate;
 
         System.out.println("Hello " + name);
-        System.out.println("Your gross pay is $" + grossPay);
+        System.out.println("Your gross pay is $" + grossPay);*/
+
+        //bugaboo #1 - Hanging Carriage
+      /*int age;
+      String name;
+
+      System.out.println("How old are you?");
+      age = read.nextInt();
+
+      read.nextLine();
+
+      System.out.println("Whats ur name?");
+      name = read.nextLine();
+
+      System.out.println("Hello, " + name + ". You are " + age + " years old.");*/
+
+      //bugaboo # 2 - Token
+
+      String firstName;
+      String lastName;
+
+      System.out.println("Enter your full name(Both first and last. Press enter after putting ur first and last name.) ");
+      firstName = read.next();
+      lastName = read.next();
+
+      System.out.println("Hello, " + firstName + " " + lastName);
     }
 }
