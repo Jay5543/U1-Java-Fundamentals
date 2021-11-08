@@ -7,7 +7,7 @@ public class TimeCrunch {
      */
     public static void main(String[] args) {
 
-        int totalSeconds = 123143;
+        int totalSeconds = 360;
 
         int realHour = totalSeconds / 3600;
 
